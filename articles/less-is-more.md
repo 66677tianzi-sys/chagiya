@@ -1,3 +1,9 @@
+---
+title: 少即是多：写在技术选型时
+tags: 技术, 思考
+excerpt: 在技术选型时，我们常常倾向于选择最流行、最强大的工具。但有时候，最简单的方案反而最有效。
+---
+
 在做技术选型时，我们常常面临一个困境：选择太多。
 
 框架有 React、Vue、Angular、Svelte、Solid……状态管理有 Redux、Zustand、Pinia、Jotai……构建工具有 Webpack、Vite、esbuild、Turbopack……每个选项都有各自的优缺点、社区生态和学习曲线。
