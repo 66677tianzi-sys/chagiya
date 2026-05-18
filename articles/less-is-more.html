@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="少即是多：写在技术选型时">
+  <title>少即是多 · 我的博客</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav">
+        <a href="../index.html" class="site-title">我的博客</a>
+        <ul class="nav-links">
+          <li><a href="../index.html">首页</a></li>
+          <li><a href="../about.html">关于</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <article>
+      <header class="article-header">
+        <div class="article-meta">
+          <time class="article-date" datetime="2026-05-05">2026 年 5 月 5 日</time>
+          <div class="article-tags">
+            <span class="article-tag">技术</span>
+            <span class="article-tag">思考</span>
+          </div>
+        </div>
+        <h1 class="article-title">少即是多：写在技术选型时</h1>
+      </header>
+
+      <div class="article-content">
+        <p>在做技术选型时，我们常常面临一个困境：选择太多。</p>
+
+        <p>框架有 React、Vue、Angular、Svelte、Solid……状态管理有 Redux、Zustand、Pinia、Jotai……构建工具有 Webpack、Vite、esbuild、Turbopack……每个选项都有各自的优缺点、社区生态和学习曲线。</p>
+
+        <p>在这种环境下，一个很自然的倾向是去选择"最强大"、"最流行"的解决方案。但这是否总是正确的选择？</p>
+
+        <h2>问题的本质</h2>
+
+        <p>技术选型的本质是<strong>权衡</strong>。每个技术决策都是在多个维度之间的取舍：</p>
+
+        <ul>
+          <li>功能丰富度 vs 学习成本</li>
+          <li>生态完善度 vs 构建复杂度</li>
+          <li>运行性能 vs 开发效率</li>
+          <li>灵活性 vs 约束性</li>
+        </ul>
+
+        <p>问题是，很多时候我们高估了"强大"工具带来的收益，低估了它带来的复杂度成本。</p>
+
+        <h2>复杂度是会累积的</h2>
+
+        <p>单个技术选型带来的额外复杂度可能很小，但多个选型叠加起来，效果是指数级的。举个例子：</p>
+
+        <ul>
+          <li>选择了 TypeScript（配置 tsconfig）</li>
+          <li>选择了 React（学习 JSX、hooks）</li>
+          <li>选择了状态管理库（学习 store、reducer）</li>
+          <li>选择了 CSS-in-JS（额外运行时）</li>
+          <li>选择了测试框架（配置 jest/vitest）</li>
+          <li>选择了 CI/CD（配置 pipeline）</li>
+        </ul>
+
+        <p>每个选择本身都是合理的，但叠加在一起，就构成了一个庞大的知识体系。团队成员需要理解全部这些才能高效工作。</p>
+
+        <h2>"足够好"的原则</h2>
+
+        <p>现在我倾向于遵循"足够好"的原则：选择最简单的、能解决问题的方案。不是因为它最流行，而是因为它最容易理解、最容易维护、最容易替换。</p>
+
+        <blockquote>
+          任何愚蠢的人都能让事情变得更复杂。但要让事情变得更简单，需要天才、勇气和自律。—— 爱德华·德·波诺
+        </blockquote>
+
+        <p>这个博客本身就是一次实践。使用纯静态 HTML 达到了目的，无需借助任何框架。这个选择不一定适用于所有项目，但对于这个特定的场景，它"足够好"了。</p>
+
+        <p>技术选型没有银弹。但有一个问题值得经常问自己：<strong>我真的需要这个吗？</strong></p>
+      </div>
+
+      <nav class="article-nav">
+        <div class="article-nav-link prev">
+          <div class="article-nav-label">上一篇</div>
+          <a href="weekend-hack.html" class="article-nav-title">← 周末捣腾：搭建个人博客记事</a>
+        </div>
+        <div class="article-nav-link next">
+          <div class="article-nav-label">下一篇</div>
+          <a href="daily-routine.html" class="article-nav-title">关于日常节奏的一些反思 →</a>
+        </div>
+      </nav>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="current-year"></span> 我的博客 · 保留所有权利</p>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
